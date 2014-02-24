@@ -12,15 +12,19 @@
 
   <img src="img/L1_1.png" width="600px"/> 
 
-2. Set password and select org name and click create.
+2. Set password and agree to Terms of Service and click "Sign Up Now"
 
   <img src="img/L1_2.png" width="500px"/> 
 
-3. Your Account should now be setup
+3. Create an organization name and click "Start Free Trial Now"
 
   <img src="img/L1_3.png" width="500px"/> 
 
-4. Logon to either the Amazon AMI instance assigned to you, or the local Linux VM you have on your local machine.
+4. Your Account should now be setup
+
+  <img src="img/L1_4.png" width="750px"/> 
+
+5. Logon to either the Amazon AMI instance assigned to you, or the local Linux VM you have on your local machine.
   
 
 
