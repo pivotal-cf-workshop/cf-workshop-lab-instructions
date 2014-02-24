@@ -18,8 +18,10 @@
 
 3. Your Account should now be setup
 
+  <img src="img/L1_3.png" width="500px"/> 
+
 4. Logon to either the Amazon AMI instance assigned to you, or the local Linux VM you have on your local machine.
   
-  <img src="img/L1_3.png" width="500px"/> 
+
 
 
