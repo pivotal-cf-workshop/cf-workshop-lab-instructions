@@ -49,7 +49,7 @@
 6. Using the CLI push the built application
 
   ```
-  > cf push --path target/cf-workshop-lab3-0.1.war
+  > cf push --path target/cf-workshop-spring-mvc-0.1.war
   ```
 
   Complete prompts as follows:
