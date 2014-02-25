@@ -4,7 +4,7 @@
 
 ###Goals
 * Get information on deployed application
-* Stop the deployed application
+* Stop the deployed application
 * Delete the deployed application
 
 ###Steps
