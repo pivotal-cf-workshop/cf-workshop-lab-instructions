@@ -5,6 +5,6 @@ echo "Proccessing $f file..."
 flen=${#f}-3
 f2=${f:0:flen}
 pandoc $f -o $f2.html
-pandoc $f2.html -o $f2.pdf
+pandoc --template=mytemplate.tex --variable mainfont=Arial --variable sansfont=Arial --variable fontsize=10pt $f2.html --latex-engine=xelatex  -o $f2.pdf
 rm $f2.html
 done
