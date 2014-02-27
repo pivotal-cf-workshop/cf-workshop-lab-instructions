@@ -1,1 +1,6 @@
-target
+target/
+src/main/webapp/*.html
+src/main/webapp/css/
+src/main/webapp/js/
+src/main/webapp/img/
+.DS_Store
