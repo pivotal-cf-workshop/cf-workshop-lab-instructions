@@ -14,15 +14,15 @@ To build the webapp and deploy it to PCF / PWS:
 
 * Install the Maven plugin locally:
 
-    `cd markdown-page-generator-plugin
+    `cd markdown-page-generator-plugin`
 	
-	mvn clean install`
+	`mvn clean install`
 
 * Build the lab instructions webapp:
 
-    `cd ../cf-workshop-lab-instructions
+    `cd ../cf-workshop-lab-instructions`
 	
-    mvn clean package`
+    `mvn clean package`
 
 * Deploy the webapp to PCF / PWS:
 
