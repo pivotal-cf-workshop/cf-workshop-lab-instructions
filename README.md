@@ -12,13 +12,22 @@ In order to generate the HTML pages from the markdown, you must install the mark
 To build the webapp and deploy it to PCF / PWS:
 
 * Clone the MD generator Maven plugin repository: 
+
 `git clone https://github.com/pivotal-cf-workshop/markdown-page-generator-plugin`
+
 * Install the Maven plugin locally:
+
 `cd markdown-page-generator-plugin`
+
 `mvn clean install`
+
 * Build the lab instructions webapp:
+
 `cd ../cf-workshop-lab-instructions`
+
 `mvn clean package`
+
 * Deploy the webapp to PCF / PWS:
+
 `cf push`
 
