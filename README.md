@@ -3,7 +3,7 @@
 ##Introduction
 This repository contains the markdown of the labs instructions for the Pivotal CF Workshop, and also builds a Java webapp containing the HTML generated output.
 
-In order to generate the HTML pages from the markdown, you must install the markdown-page-generator-plugin Maven plugin into your local repository.  Thanks to (#walokra)[https://github.com/walokra] for the Maven plugin for MD -> HTML generation.
+In order to generate the HTML pages from the markdown, you must install the markdown-page-generator-plugin Maven plugin into your local repository.  Thanks to [Marko Wallin](https://github.com/walokra) for the Maven plugin for MD -> HTML generation.
 
 ##Building and Deploying
 To build the webapp and deploy it to PCF / PWS:
