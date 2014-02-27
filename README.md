@@ -27,7 +27,18 @@ To build the webapp and deploy it to PCF / PWS:
     cd ../cf-workshop-lab-instructions
     mvn clean package
 	```
-	
+* If necessary, change the host attribute in manifest.yml:
+
+    ```
+	---
+	applications:
+	- name: cf-workshop-lab-instructions
+	  memory: 256M
+	  instances: 1
+	>>>  host: cf-workshop-lab-instructions <<<
+	  domain: cfapps.io
+	  path: target/cf-workshop-lab-instructions-0.1.war
+	```
 * Deploy the webapp to PCF / PWS:
 
 	```
