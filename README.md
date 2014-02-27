@@ -35,7 +35,7 @@ To build the webapp and deploy it to PCF / PWS:
 	- name: cf-workshop-lab-instructions
 	  memory: 256M
 	  instances: 1
-	>>>  host: cf-workshop-lab-instructions <<<
+	  host: ** make this a unique host **
 	  domain: cfapps.io
 	  path: target/cf-workshop-lab-instructions-0.1.war
 	```
