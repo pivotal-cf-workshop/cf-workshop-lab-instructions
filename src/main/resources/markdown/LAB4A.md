@@ -14,8 +14,7 @@
 	```
 	> cf push --manifest new-manifest.yml
 	```
-
-
+	
 3. After application deploys and starts open a browser and navigate to the application.  The path to the application is supplied in a message similar to the following:
 
 	```

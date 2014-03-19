@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.gopivotal.cf.workshop</groupId>
+	<artifactId>cf-workshop-lab-instructions</artifactId>
+	<name>Cloud Foundry Workshop Lab Instructions</name>
+	<packaging>war</packaging>
+	<version>0.1</version>
+	<repositories>
+	</repositories>
+	<dependencies>
+	</dependencies>
+    <build>
+        <plugins>
+		    <plugin>
+		        <groupId>com.ruleoftech</groupId>
+		        <artifactId>markdown-page-generator-plugin</artifactId>
+		        <version>0.3</version>
+		        <executions>
+		            <execution>
+		                <phase>process-sources</phase>
+		                <goals>
+		                    <goal>generate</goal>
+		                </goals>
+		            </execution>
+		        </executions>
+		        <configuration>
+		            <headerHtmlFile>${project.basedir}/src/main/resources/markdown/html/header.html</headerHtmlFile>
+		            <footerHtmlFile>${project.basedir}/src/main/resources/markdown/html/footer.html</footerHtmlFile>
+		            <copyDirectories>css,img,js</copyDirectories>
+					<outputDirectory>${project.basedir}/src/main/webapp</outputDirectory>
+		        </configuration>
+		    </plugin>        
+		</plugins>
+    </build>
+</project>

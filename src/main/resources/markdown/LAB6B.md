@@ -59,7 +59,7 @@
 4. View the failure events for the application:
 
 	```
-	> cf events
+	cf events
 
 	Getting events for cf-workshop-spring-mvc... OK
 
